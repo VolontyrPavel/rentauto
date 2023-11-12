@@ -33,7 +33,7 @@ export const Img = styled.div`
     position: absolute;
     top: 14px;
     right: 14px;
-    z-index: 2;
+    z-index: 0.2;
 
     svg {
       fill: transparent;

@@ -1,3 +1,5 @@
+import { Div } from './Modal.styled';
+
 const ModalWindow = ({ car }) => {
   const {
     id,
@@ -17,14 +19,14 @@ const ModalWindow = ({ car }) => {
   } = car;
 
   return (
-    <div>
-      <img src={img} alt='car'></img>
+    <Div>
+      <img src={img} alt="car"></img>
       <p>
         {make} <span>{model}</span>, {year}
       </p>
       <ul>
-        <li>{address.split(",")[1]}</li>
-        <li>{address.split(",")[2]}</li>
+        <li>{address.split(',')[1]}</li>
+        <li>{address.split(',')[2]}</li>
         <li>Id: {id}</li>
         <li>Year: {year}</li>
         <li>type: {type}</li>
@@ -35,11 +37,11 @@ const ModalWindow = ({ car }) => {
       <p>Accessories and functionalities:</p>
       <ul>
         {accessories.map((item, index) => (
-          <li key={"i" + index}>{item}</li>
+          <li key={'i' + index}>{item}</li>
         ))}
 
         {functionalities.map((item, index) => (
-          <li key={"i" + index}>{item}</li>
+          <li key={'i' + index}>{item}</li>
         ))}
       </ul>
       <p>Rental Conditions:</p>
@@ -55,7 +57,7 @@ const ModalWindow = ({ car }) => {
         </li>
       </ul>
       <button href="tel:+380730000000">Rental car</button>
-    </div>
+    </Div>
   );
 };
 

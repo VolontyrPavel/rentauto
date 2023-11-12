@@ -1,39 +1,35 @@
-import React from "react";
-import { Select } from "antd";
+import React from 'react';
+import { Select } from 'antd';
 
-import { BRANDS } from "../../utils/listOfBrands";
-import { PRICE } from "../../utils/listOfPrice";
+import { BRANDS } from '../../utils/listOfBrands';
+import { PRICE } from '../../utils/listOfPrice';
 
-import { useState } from "react";
+import { useState } from 'react';
 
-import { Form, Div, Input } from "./Filter.styled";
+import { Form, Div, Input } from './Filter.styled';
 
 const Filter = ({ setFilter, setPage }) => {
   const [brand, setBrand] = useState(null);
   const [price, setPrice] = useState(null);
-  const [mileageFrom, setMileageFrom] = useState("");
-  const [mileageTo, setMileageTo] = useState("");
+  const [mileageFrom, setMileageFrom] = useState('');
+  const [mileageTo, setMileageTo] = useState('');
 
   const filterOption = (input, option) =>
-    (option?.label ?? "").toLowerCase().includes(input.toLowerCase());
+    (option?.label ?? '').toLowerCase().includes(input.toLowerCase());
 
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
     const items = {
       brand: brand,
       price: price,
-      mileageFrom: mileageFrom,
-      mileageTo: mileageTo,
+      mileage: {
+        from: mileageFrom,
+        to: mileageTo,
+      },
     };
-
-    console.log(items);
+    
     setPage(1);
     setFilter(items);
-    reset();
-  };
-
-  const reset = () => {
-    setBrand("");
   };
 
   return (
@@ -44,7 +40,7 @@ const Filter = ({ setFilter, setPage }) => {
           showSearch
           placeholder="Enter the text"
           optionFilterProp="Car brand"
-          onChange={(value) => {
+          onChange={value => {
             setBrand(value);
           }}
           filterOption={filterOption}
@@ -57,7 +53,7 @@ const Filter = ({ setFilter, setPage }) => {
           showSearch
           placeholder="To $"
           optionFilterProp="Car price"
-          onChange={(value) => {
+          onChange={value => {
             setPrice(value);
           }}
           filterOption={filterOption}
