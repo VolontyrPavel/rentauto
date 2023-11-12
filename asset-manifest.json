@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/rentauto/static/css/main.7acaea2f.css",
-    "main.js": "/rentauto/static/js/main.07d3183d.js",
-    "index.html": "/rentauto/index.html",
-    "main.7acaea2f.css.map": "/rentauto/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/rentauto/static/js/main.07d3183d.js.map"
+    "main.js": "/carrent/static/js/main.bf7e6203.js",
+    "static/js/796.c43fe217.chunk.js": "/carrent/static/js/796.c43fe217.chunk.js",
+    "static/js/306.f8ade60e.chunk.js": "/carrent/static/js/306.f8ade60e.chunk.js",
+    "static/js/193.a199c614.chunk.js": "/carrent/static/js/193.a199c614.chunk.js",
+    "static/js/983.6db52edf.chunk.js": "/carrent/static/js/983.6db52edf.chunk.js",
+    "static/media/background.jpg": "/carrent/static/media/background.c6c4067ff6298f1f5fc1.jpg",
+    "static/media/sprite.svg": "/carrent/static/media/sprite.e5f67a019e524461a24359376b8c347e.svg",
+    "index.html": "/carrent/index.html",
+    "main.bf7e6203.js.map": "/carrent/static/js/main.bf7e6203.js.map",
+    "796.c43fe217.chunk.js.map": "/carrent/static/js/796.c43fe217.chunk.js.map",
+    "306.f8ade60e.chunk.js.map": "/carrent/static/js/306.f8ade60e.chunk.js.map",
+    "193.a199c614.chunk.js.map": "/carrent/static/js/193.a199c614.chunk.js.map",
+    "983.6db52edf.chunk.js.map": "/carrent/static/js/983.6db52edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.bf7e6203.js"
   ]
 }
