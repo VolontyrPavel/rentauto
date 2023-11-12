@@ -1,8 +1,8 @@
 {
-  "name": "renauto",
+  "name": "rentauto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://VolontyrPavel.github.io/renauto/",
+  "homepage": "https://VolontyrPavel.github.io/rentauto/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
