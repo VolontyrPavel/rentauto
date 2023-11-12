@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/carrent/static/js/main.bf7e6203.js",
-    "static/js/796.c43fe217.chunk.js": "/carrent/static/js/796.c43fe217.chunk.js",
-    "static/js/306.f8ade60e.chunk.js": "/carrent/static/js/306.f8ade60e.chunk.js",
-    "static/js/193.a199c614.chunk.js": "/carrent/static/js/193.a199c614.chunk.js",
-    "static/js/983.6db52edf.chunk.js": "/carrent/static/js/983.6db52edf.chunk.js",
-    "static/media/background.jpg": "/carrent/static/media/background.c6c4067ff6298f1f5fc1.jpg",
-    "static/media/sprite.svg": "/carrent/static/media/sprite.e5f67a019e524461a24359376b8c347e.svg",
-    "index.html": "/carrent/index.html",
-    "main.bf7e6203.js.map": "/carrent/static/js/main.bf7e6203.js.map",
-    "796.c43fe217.chunk.js.map": "/carrent/static/js/796.c43fe217.chunk.js.map",
-    "306.f8ade60e.chunk.js.map": "/carrent/static/js/306.f8ade60e.chunk.js.map",
-    "193.a199c614.chunk.js.map": "/carrent/static/js/193.a199c614.chunk.js.map",
-    "983.6db52edf.chunk.js.map": "/carrent/static/js/983.6db52edf.chunk.js.map"
+    "main.js": "/renauto/static/js/main.02ff7e88.js",
+    "static/js/796.7d3e7324.chunk.js": "/renauto/static/js/796.7d3e7324.chunk.js",
+    "static/js/306.ea01444f.chunk.js": "/renauto/static/js/306.ea01444f.chunk.js",
+    "static/js/193.eb9822d4.chunk.js": "/renauto/static/js/193.eb9822d4.chunk.js",
+    "static/js/983.f9f56894.chunk.js": "/renauto/static/js/983.f9f56894.chunk.js",
+    "static/media/background.jpg": "/renauto/static/media/background.c6c4067ff6298f1f5fc1.jpg",
+    "static/media/sprite.svg": "/renauto/static/media/sprite.e5f67a019e524461a24359376b8c347e.svg",
+    "index.html": "/renauto/index.html",
+    "main.02ff7e88.js.map": "/renauto/static/js/main.02ff7e88.js.map",
+    "796.7d3e7324.chunk.js.map": "/renauto/static/js/796.7d3e7324.chunk.js.map",
+    "306.ea01444f.chunk.js.map": "/renauto/static/js/306.ea01444f.chunk.js.map",
+    "193.eb9822d4.chunk.js.map": "/renauto/static/js/193.eb9822d4.chunk.js.map",
+    "983.f9f56894.chunk.js.map": "/renauto/static/js/983.f9f56894.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.bf7e6203.js"
+    "static/js/main.02ff7e88.js"
   ]
 }
