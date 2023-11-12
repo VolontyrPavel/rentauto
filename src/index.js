@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Global styles={GlobalStyles} />
     <Provider store={store}>
-      <BrowserRouter basename="/carrent">
+      <BrowserRouter basename="/renauto">
         <App />
       </BrowserRouter>
     </Provider>

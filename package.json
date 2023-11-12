@@ -1,8 +1,8 @@
 {
-  "name": "carrent",
+  "name": "renauto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://VolontyrPavel.github.io/carrent/",
+  "homepage": "https://VolontyrPavel.github.io/renauto/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
